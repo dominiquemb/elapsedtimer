@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<head>
+  <title>Elapsed Timer Demo</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+	  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+	  crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="js/elapsedtimer.js"></script>
+  <script type="text/javascript" src="js/example.js"></script>
+  <link rel="stylesheet" href="css/timer.css" />
+</head>
+<body>
+  <div class="digital-timer clearfix">
+    <div class="time-elapsed">Time Elapsed <input type="button" class="pause-timer" value="Pause"></input></div>
+    <div class="time-wrap"></div>
+    <div id="digital-timer">
+      <div class="hours-elapsed-container time"><span class="amount hours-elapsed"></span><span class="label">HOURS</span></div>
+      <div class="minutes-elapsed-container time"><span class="amount minutes-elapsed"></span><span class="label">MINUTES</span></div> 
+      <div class="seconds-elapsed-container time"><span class="amount seconds-elapsed"></span><span class="label">SECONDS</span></div>
+    </div>
+  </div>
+</body>

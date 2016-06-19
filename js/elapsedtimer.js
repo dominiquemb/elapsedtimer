@@ -152,7 +152,7 @@ jQuery(document).ready(function() {
       return false;
     }
 
-    this.examSimulatorTimerStart = function() {
+    this.countdownTimerStart = function() {
       this.resetCountdown();
       this.setCountdown(this.timerSettings);
     };

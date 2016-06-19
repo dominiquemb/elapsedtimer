@@ -4,9 +4,14 @@
   margin-right: auto !important;
 }
 
-.no-seconds .hours-remaining-container,
+.no-seconds .minutes-elapsed-container {
+  margin-left: 50px;
+  text-align: center;
+}
+
 .no-seconds .hours-elapsed-container {
-  margin-left: -1px !important;
+  text-align: center;
+  margin-left: 19px;
 }
 
 .seconds-elapsed-container.time {
@@ -95,7 +100,11 @@
   padding-top: 2px;
 }
 .no-hours .minutes-elapsed-container {
+  text-align: center;
   margin-left: 8px;
+}
+.no-hours .seconds-elapsed-container {
+  text-align: center;
 }
 .no-seconds .hours-remaining-container,
 .no-seconds .hours-elapsed-container {

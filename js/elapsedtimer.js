@@ -157,7 +157,7 @@ jQuery(document).ready(function() {
       this.setCountdown(this.timerSettings);
     };
 
-    this.quizTimerStart = function() {
+    this.elapsedTimerStart = function() {
       this.resetTimer();
       this.setTimer();
     };

@@ -18,7 +18,7 @@ jQuery(document).ready(function() {
   });
 
   /* Start the timer */
-  elapsed_timer.quizTimerStart();
+  elapsed_timer.elapsedTimerStart();
 
   /* Some optional code */
   var timeDiff = 0;
